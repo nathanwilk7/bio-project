@@ -1,0 +1,9 @@
+*.csv
+gephi-0.9.2/
+*.json
+*.gv
+*.txt
+*.gz
+*.gctx
+node_modules/
+.ipynb_checkpoints/
