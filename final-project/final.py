@@ -101,10 +101,10 @@ q.gene_represses('BRCA1')
 
 # In[182]:
 
-q.gene_vis_promotes('BUB1B')
+#q.gene_vis_promotes('BUB1B')
 
 
 # In[183]:
 
-q.gene_vis_represses('BRCA1', n=10)
+#q.gene_vis_represses('BRCA1', n=10)
 
