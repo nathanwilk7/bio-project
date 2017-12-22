@@ -86,17 +86,17 @@ q = Query(promoters_file, repressors_file)
 
 # In[178]:
 
-q.gene_info('BCL2')
+print(q.gene_info('BCL2'))
 
 
 # In[179]:
 
-q.gene_promotes('BUB1B')
+print(q.gene_promotes('BUB1B'))
 
 
 # In[180]:
 
-q.gene_represses('BRCA1')
+print(q.gene_represses('BRCA1'))
 
 
 # In[182]:
