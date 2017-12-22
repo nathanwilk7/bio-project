@@ -5,6 +5,7 @@
 
 class Query:
     def __init__(self, promoters_file='averaged_promoters.json', repressors_file='averaged_repressors.json'):
+        import json
         with open(promoters_file) as r:
             self.gene_to_affecteds_zscore_promoters = json.load(r)
         with open(repressors_file) as r:
