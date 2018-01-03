@@ -5,6 +5,7 @@
 
 class Query:
     def __init__(self, promoters_file='averaged_promoters.json', repressors_file='averaged_repressors.json'):
+        import json
         with open(promoters_file) as r:
             self.gene_to_affecteds_zscore_promoters = json.load(r)
         with open(repressors_file) as r:
@@ -85,25 +86,25 @@ q = Query(promoters_file, repressors_file)
 
 # In[178]:
 
-q.gene_info('BCL2')
+print(q.gene_info('BCL2'))
 
 
 # In[179]:
 
-q.gene_promotes('BUB1B')
+print(q.gene_promotes('BUB1B'))
 
 
 # In[180]:
 
-q.gene_represses('BRCA1')
+print(q.gene_represses('BRCA1'))
 
 
 # In[182]:
 
-q.gene_vis_promotes('BUB1B')
+#q.gene_vis_promotes('BUB1B')
 
 
 # In[183]:
 
-q.gene_vis_represses('BRCA1', n=10)
+#q.gene_vis_represses('BRCA1', n=10)
 
