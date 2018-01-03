@@ -371,12 +371,12 @@
 % was not built to handle multiple paragraphs
 %
 
-\author{Nathan Wilkinson% <-this % stops a space
-\thanks{M. Shell was with the Department
-of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
-GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
-\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
-\thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
+\author{Nathan Wilkinson}% <-this % stops a space
+%\thanks{M. Shell was with the Department
+%of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+%GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+%\thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
 
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
@@ -464,7 +464,7 @@ After I had extracted the expression levels of genes, I saved them to avoid havi
 
 The goal of this project was to provide a framework that could be used to allow biologists to discover novel transcription factors and to enable synthetic biologists to better understand and predict how changes to human cell biology will affect the cell. I will provide a brief walkthrough demo of how the framework I built can be used.
 
-First, clone the git repo \url{https://github.com/nathanwilk7/bio-project}. Then cd into the final-project directory. There should be a final.py file. Second, use wget or curl to download the files (these files are big, probably run them in the background concurrently) at \url{https://s3.amazonaws.com/mod-bio-project/averaged_promoters.json} and \url{https://s3.amazonaws.com/mod-bio-project/averaged_repressors.json}. I will assume that these files have been downloaded to the current working directory. Then, if you have jupyter notebook run the final.ipynb file in jupyter notebook to explore the API (you need to install the matplotlib and networkx packages, you can use pip). If you don't have jupyter notebook, then you can just run the final.py file, but you won't get any fancy visualizations. Feel free to modify the source code and run custom queries. It will probably take a bit to initialize the Query object, but queries should be near instantaneous after the data has been loaded.
+First, clone the git repo \url{https://github.com/nathanwilk7/bio-project}. Then cd into the final-project directory. Second, use wget or curl to download the files (these files are big, probably run them in the background concurrently) at \url{https://s3.amazonaws.com/mod-bio-project/averaged_promoters.json} and \url{https://s3.amazonaws.com/mod-bio-project/averaged_repressors.json}. I will assume that these files have been downloaded to the current working directory. Then, if you have jupyter notebook run the final.ipynb file in jupyter notebook to explore the API (you need to install the matplotlib and networkx packages, you can use pip). If you don't have jupyter notebook, then you can just run the final.py file, but you won't get any fancy visualizations. Feel free to modify the source code and run custom queries. It will probably take a bit to initialize the Query object, but queries should be near instantaneous after the data has been loaded.
 
 \section{Conclusion}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.21)  14 DEC 2017 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.21)  15 DEC 2017 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,15 +265,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./exp_full.png (PNG copy)> <./exp_low.png (PNG copy)>]
-Underfull \hbox (badness 1383) in paragraph at lines 467--468
-\OT1/ptm/m/n/10 in the back-ground con-cur-rently) at $https : / / s3 . amazona
-ws .
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+\OT1/ptm/m/n/10 s3 . amazonaws . com / mod-[]bio-[]project / averaged[]promoter
+s . json$
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 467--468
-\OT1/ptm/m/n/10 amazonaws . com / mod-[]bio-[]project / averaged[]repressors . 
-json$. I
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+\OT1/ptm/m/n/10 and $https : / / s3 . amazonaws . com / mod-[]bio-[]project / a
+veraged[]
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 467--468
+\OT1/ptm/m/n/10 down-loaded to the cur-rent work-ing di-rec-tory. Then, if
  []
 
 <all_image.png, id=11, 595.22375pt x 554.07pt>
@@ -390,7 +395,7 @@ Here is how much of TeX's memory you used:
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb>
-Output written on bare_jrnl.pdf (3 pages, 523929 bytes).
+Output written on bare_jrnl.pdf (3 pages, 523128 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
